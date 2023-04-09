@@ -1,0 +1,229 @@
+/* This file is used to add style onto your website */
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+
+
+html {
+  box-sizing: border-box; 
+}
+
+body {
+  background-color: #0b192f; 
+  margin: 0px;
+  padding: 0px;
+}
+
+.light-mode {
+  background-color: #f1e7db; 
+  color: black; 
+}
+
+p {
+  color: #8892af; 
+  font-family: 'NTR', sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: 'NTR', sans-serif;
+  color: #64ffda;
+}
+
+a {
+  font-family: 'NTR', sans-serif;
+}
+
+#main-container {
+  margin: auto; 
+  max-width: 54em;  
+  padding: 8em 2em 4em 2em; 
+  width: 100%; 
+}
+
+#main-container > section {
+  border-top: solid 2px #8f96ac; 
+  margin: 4em 0 0 0; 
+  padding: 5em 0 0 0; 
+}
+
+/* Don't want a top border for the first section on webpage */
+#main-container > section:first-child {
+  border-top: 0;
+  margin-top: 0; 
+  padding-top: 0; 
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-content: center; 
+  background-color: #070f1c;  
+  padding: 0.25rem 0.25rem; 
+  margin-bottom: 0; 
+}
+
+.nav-bar-link {
+  text-decoration: none;
+  display: block;
+  font-size: 20px; 
+  color: #64ffda;
+  margin-top: 25px;
+}
+ 
+.nav-bar-link:hover {
+  text-decoration: underline; 
+}
+
+
+.intro-links {
+  display: flex; 
+  cursor: default;
+  list-style: none; 
+  margin-left: -1em; 
+  padding-left: 0; 
+  font-size: 18px; 
+}
+
+.intro-links li {
+  padding: 0 0 0 1em; 
+  vertical-align: middle; 
+  list-style: none; 
+}
+
+.my-email {
+  text-decoration: none;
+}
+
+.me {
+  padding-left: 20%;
+}
+
+
+.me img {
+  max-width: 350px; 
+  height: 375px; 
+  border-radius: 10px;
+  margin-left: 30px; 
+  box-shadow: 6px 15px 23px -5px rgba(0,0,0,0.46);
+  border: none; 
+}
+
+.me img:hover {
+  transform: translateY(-7px);
+}
+
+/* fixing image placement for mobile view  */
+@media only screen and (max-width: 788px) {
+  #main-container > section:first-child {
+  border-top: 0;
+  margin-top: 0; 
+  padding-top: 0; 
+  display: inline;
+  }
+
+  .me {
+    padding: 0;
+  }
+
+  .me img {
+  max-width: 350px; 
+  height: 375px; 
+  box-shadow: 6px 15px 23px -5px rgba(0,0,0,0.46);
+  border: none; 
+}
+  
+}
+
+.text-decoration {
+  color: #64ffda;
+}
+
+button {
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  color: #ccd6f6;  
+  background-color: transparent; 
+  border: 1.5px solid #64ffda;
+}
+
+button a {
+  text-decoration: none; 
+  color: #ccd6f6; 
+  font-size: 14px; 
+}
+
+.logo-image {
+  width: 70px; 
+  margin-top: 10px; 
+  border-radius: 10px; 
+}
+
+.nav-bar-button {
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  color: #ccd6f6;  
+  background-color: transparent; 
+  border: 1.5px solid #64ffda;
+  height: 40px; 
+  margin-top: 25px; 
+}
+
+.project-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+}
+
+.project-card {
+  background-color: #091426; 
+  padding: 1%; 
+  margin: 1%; 
+  width: 350px; 
+  border-radius: 10px; 
+}
+
+.project-card p {
+  text-align: center; 
+}
+
+.project-card h2 {
+  text-align: center; 
+}
+
+.project-card-image {
+  width: 100%; 
+  border-radius: 10px; 
+}
+
+.project-card:hover {
+  transform: translateY(-7px); 
+}
+
+.light-mode-h2 {
+  color: #282d37; 
+  font-weight: bold; 
+}
+
+.light-mode-p {
+  color: #282d37; 
+}
+
+.nav-bar-light {
+  background-color: #f4ede4
+}
+
+.nav-bar-button-light {
+  border: 1.5px solid #282d37;
+  color: #282d37;
+}
+
+.light-a {
+  color: #282d37; 
+}
+
+.project-card-light {
+  background-color: #f4ede4; 
+}

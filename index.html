@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ethan Pineda</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+
+<!--   navigation bar  -->
+  <div class="nav-bar">
+    <div class="nav-container">
+      <a href="#main-container"><img class="logo-image" src="./assets/images/CodePathLogo.jpg"  alt="An image of CodePath's logo"/></a>
+      <button onclick="toggleViewMode()" class="nav-bar-button"id="switch-mode">Toggle Dark Mode</button>
+      <a href="#main-container" class="nav-bar-link">Home</a>
+      <a href="#about-me" class="nav-bar-link">About</a>
+      <a href="#response-video" class="nav-bar-link">Video</a>
+      <a href="#response-video"  class="nav-bar-link">Portfolio</a>
+      <img />
+    </div>
+  </div>
+  
+<!--   main container to hold all webpage elements and center them -->
+  <div id="main-container">
+<!--     section and container for the about me portion of the webpage -->
+    <section id="intro-desc">
+      <header class="intro-desc-cont">
+        <h2>Ethan Pineda</h3>
+        <p>Northwestern University</p>
+        <p>Bachelor of Arts in Computer Science C/O 2025</p>
+        <p>Judd A. and Marjorie Weinberg College of Arts and Sciences</p>
+        <a href="mailto:EthanPineda2025@u.northwesternedu">          
+        <p class="text-decoration"  >EthanPineda2025@u.northwestern.edu</p></a>
+        <p class="text-decoration" >773-732-1234</p>
+
+        <ul class="intro-links">
+          <li><button><a href="assets/Pineda_Ethan_Resume_2025.pdf">Resume</a></button></li>
+          <li><button><a href="https://www.linkedin.com/in/ethanpineda/">Linkedln</a></button></li>
+          <li><button><a href="https://github.com/ethanpaneraa">Github</a></button></li>
+        </ul>
+      </header>
+      <div class="me"><img src="assets/images/yo3.JPG" alt="Photo me (Ethan Pineda) in front of graffiti artwork in my hometown, Chicago wearing a black masks on my face and wearing a black jacket while throwing a peace sign"/></div>
+    </section>
+
+
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>I am a first-generation low-income (FGLI) second-year Computer Science student at Northwestern University. My current interests span full-stack development, artificial intelligence, and the intersection between technology and art. Minus the jargon, I am motivated by the idea and desire to empower folks with high-quality and accessible and user experiences. My ultimate goal and desire with technology is to be able to create technology that can empower entire communities.
+      <br>
+      <br>
+          At Northwestern, you can find me working at the research group Technological Innovations for Inclusive Learning and Teaching (tiilt), a research lab focused on the intersectionality between technology and education. At tiilt lab, I work with the B.L.I.N.C project, a project that utilizes multimodal learning analytics to give educators real-time quantitative data on student discussions. With the project, I help out with leading and conduct user testing. 
+        <br>
+        <br>
+
+      I am also involved with organizations such as the Society of Hispanic Professional Engineers (SHPE) as well as EmergingCoders, an organization focused on providing first-generation and low-income aspiring technologist opportunities to develop technical skills and learn more about the technology industry. 
+      
+      </p>
+    </section>
+
+<!--     section for displaying video response to provided questions -->
+    <section id="response-video">
+      <h2>Video Response</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9bcZZaDDXSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <a href="https://docs.google.com/document/d/1ggkm6R5K4lv1OPIoZKPmp1nVL9a2siqnfrvrQEBzBqE/edit?usp=sharing" target="_blank"><h2>Video Transcript</h2></a>
+      <h2></h2>
+    </section>
+
+<!--     grid display of portfolio projects -->
+    <section id="software-projects">
+      <h2>Portfolio Projects</h2>
+
+      <div class="project-container">
+        <div class="project-card">
+          <div>
+            <img class="project-card-image"src="./assets/images/otherWebsite.png" alt="An image showing a different version of my personal website"/>
+            <h2>Personal Website</h2>
+            <p>A different verison of my personal website built using React.JS and HTML/CSS</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div>
+            <img class="project-card-image" src="./assets/images/wbe102prework.png" alt="An image showing "/>
+            <h2>Crowdfunding Website</h2>
+            <p>Website for the company Sea Monster Crowdfunding that displays information about the games they have funded (This is the pre-work for Code-Paths Intermediate Web Dev Course for spring 2023).Built with JavaScript, HTML/CSS</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div>
+            <img class="project-card-image" src="./assets/images/NUShpeWebsite.png" alt="An image showing the home screen of Northwestern's Society of Hispanic Professional Engineers Website"/>
+            <h2>Northwestern SHPE Website</h2>
+            <p>Website for Northwestern University's Society of Hispanic Professional Engineers (SHPE) Chapter. Built with HTML/CSS</p>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+
+    
+  </div>
+
+
+  
+  <script src="script.js">
+  </script>
+
+ 
+</body>
+
+</html>
